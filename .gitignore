@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+*.pt
+
+# Model Weights (> 50MB)
+backend/weights/midas_small.onnx
+
+# Node / Frontend
+node_modules/
+dist/
+.tmp/
+*.local
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
